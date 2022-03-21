@@ -1,0 +1,17 @@
+/abrir-banca (100)
+/iniciar-jogo (vlr-jogo)
+	- não pode ser maior que a banca
+	- retorna um aleatório de 1 a 13
+/continuar
+	- mais uma carta de 1 a 13 ;
+	- se alcançou 21 perde e diminuí valor apostado da banca;
+	- se ficou entre 18 e 20 avisa que se continuar novamente aumenta pra ganhos pra 2.5x
+/parar
+	- mais uma carta de 1 a 13
+	- se passou 21 perde, se não ganha
+/fechar-banca
+	- chamado autamaticamente se apostou tudo e perdeu
+	- se possuir valor em banca retorna esse valor
+
+Criar duas classes Banca e Jogo
+Criar serviço para manipular jogo ativo Jogo
